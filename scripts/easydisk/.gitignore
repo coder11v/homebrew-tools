@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: Yorhel <projects@yorhel.nl>
+# SPDX-License-Identifier: MIT
+
+*.swp
+*~
+ncurses
+zstd
+static-*/
+zig-cache/
+zig-out/
+.zig-cache/
