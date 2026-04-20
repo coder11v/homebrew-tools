@@ -28,6 +28,18 @@ A terminal-based dino run game to keep you entertained while waiting for long bu
 brew install coder11v/tools/dino
 ```
 
+### 🌳 easytree
+A sleek directory tree viewer wrapper for `tree`.
+```bash
+brew install coder11v/tools/easytree
+```
+
+### 🚀 easybit
+A sleek download manager wrapper for `aria2c`.
+```bash
+brew install coder11v/tools/easybit
+```
+
 ## Installation
 
 Add the tap:

@@ -1,20 +1,18 @@
-class Imcli < Formula
-  desc "Intelligent Manager CLI"
+class Easytree < Formula
+  desc "Sleek directory tree viewer wrapper"
   homepage "https://github.com/coder11v/homebrew-tools"
   url "https://github.com/coder11v/homebrew-tools.git", branch: "main"
   version "1.1.0"
 
   depends_on "figlet"
   depends_on "gum"
-  depends_on "jq"
-  depends_on "ncdu"
+  depends_on "tree"
 
   def install
-    libexec.install Dir["scripts/imcli/*"]
-    bin.install_symlink libexec/"imcli"
+    bin.install "scripts/easytree/easytree"
   end
 
   test do
-    system "#{bin}/imcli"
+    system "#{bin}/easytree", "--version"
   end
 end

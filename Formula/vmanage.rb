@@ -2,7 +2,7 @@ class Vmanage < Formula
   desc "An easy tool manager for coder11v tools"
   homepage "https://github.com/coder11v/homebrew-tools"
   url "https://github.com/coder11v/homebrew-tools.git", branch: "main"
-  version "1.0.1"
+  version "1.1.0"
 
   depends_on "figlet"
   depends_on "gum"
@@ -11,6 +11,8 @@ class Vmanage < Formula
   depends_on "easydisk"
   depends_on "dino"
   depends_on "imcli"
+  depends_on "easytree"
+  depends_on "easybit"
 
   def install
     bin.install "scripts/vmanage/vmanage"
