@@ -1,8 +1,8 @@
 class Easybit < Formula
-  desc "Sleek download manager wrapper for aria2c"
+  desc "Fast & Easy CLI tool for managing torrents"
   homepage "https://github.com/coder11v/homebrew-tools"
   url "https://github.com/coder11v/homebrew-tools.git", branch: "main"
-  version "1.1.0"
+  version "1.2.0"
 
   depends_on "figlet"
   depends_on "gum"

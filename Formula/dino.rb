@@ -1,8 +1,8 @@
 class Dino < Formula
-  desc "Terminal-based dino run"
+  desc "A terminal-based dino run game"
   homepage "https://github.com/coder11v/homebrew-tools"
   url "https://github.com/coder11v/homebrew-tools.git", branch: "main"
-  version "1.1.0"
+  version "1.2.0"
 
   depends_on "figlet"
   depends_on "gum"
