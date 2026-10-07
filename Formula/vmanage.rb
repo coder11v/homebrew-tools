@@ -13,6 +13,7 @@ class Vmanage < Formula
   depends_on "imcli"
   depends_on "easytree"
   depends_on "easybit"
+  depends_on "aszn"
 
   def install
     bin.install "scripts/vmanage/vmanage"
