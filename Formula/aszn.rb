@@ -5,6 +5,7 @@ class Aszn < Formula
   sha256 "REPLACE_ME_RUN_scripts/release.zsh"
   license "MIT"
   head "https://github.com/coder11v/aszn.git", branch: "main"
+  version "0.1.0"
 
   uses_from_macos "zsh"
 

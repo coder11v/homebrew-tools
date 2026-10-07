@@ -6,7 +6,7 @@ class Easydisk < Formula
 
   depends_on "figlet"
   depends_on "gum"
-  depends_on "zig" => :build
+  depends_on "zig@0.16" => :build
   depends_on "ncurses"
   depends_on "zstd"
 
